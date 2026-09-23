@@ -1,0 +1,73 @@
+{
+  "source": "evidence/frozen-source/models/dpmm_contrastive.py",
+  "source_sha256": "f1514e701b139a64e214ac0c40e32107853ebbbac1b0a9823f5affaac0e7f8ea",
+  "base_model": "evidence/frozen-source/utils/base_model.py",
+  "base_model_sha256": "3bf3e923fa7f4c25f5e78747174b7c88b210cf7a41d36e2e01d54314c0c7a7f1",
+  "torch": "2.12.1+cu130",
+  "protocol": "CPU synthetic four-row batches, no optimizer step or biological data; seeds 0/1/2 for initialization/forward; seed 17 model and seed 29 augmentation stream",
+  "isolated": [
+    {
+      "seed": 0,
+      "initialization_max_parameter_difference": 1.5020842552185059,
+      "initialization_bn_buffers_equal": true,
+      "one_forward_ema_max_error": 0.0,
+      "one_forward_queue_changed_columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "one_forward_queue_ptr": 4,
+      "one_forward_logit_shape": [
+        4,
+        17
+      ]
+    },
+    {
+      "seed": 1,
+      "initialization_max_parameter_difference": 1.1874759197235107,
+      "initialization_bn_buffers_equal": true,
+      "one_forward_ema_max_error": 0.0,
+      "one_forward_queue_changed_columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "one_forward_queue_ptr": 4,
+      "one_forward_logit_shape": [
+        4,
+        17
+      ]
+    },
+    {
+      "seed": 2,
+      "initialization_max_parameter_difference": 1.2075773477554321,
+      "initialization_bn_buffers_equal": true,
+      "one_forward_ema_max_error": 0.0,
+      "one_forward_queue_changed_columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "one_forward_queue_ptr": 4,
+      "one_forward_logit_shape": [
+        4,
+        17
+      ]
+    }
+  ],
+  "integrated": {
+    "query_bn_calls_after_forward": 1,
+    "query_bn_calls_after_loss": 4,
+    "key_bn_calls_after_loss": 1,
+    "queue_ptr_after_forward": 4,
+    "queue_ptr_after_loss": 4,
+    "moco_weight_one_to_zero_total_delta": 2.4321250915527344,
+    "contrastive_composite": 2.4321253299713135,
+    "difference_error": 2.384185791015625e-07,
+    "moco_weight_zero_queue_ptr_after_recompute": 4
+  },
+  "gate": "PASS: assertions executed; does not certify full training or biological endpoints"
+}

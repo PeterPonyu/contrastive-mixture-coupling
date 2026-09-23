@@ -1,0 +1,13 @@
+{
+  "title": "Seed and schedule sensitivity of mixture coupling in a contrastive autoencoder",
+  "version": "1.0.0",
+  "repository": "https://github.com/PeterPonyu/contrastive-mixture-coupling",
+  "archive_doi": "10.5281/zenodo.22914495",
+  "archive_record": "https://zenodo.org/records/22914495",
+  "scope": "The archive contains the manuscript, vector figures, six paired endpoints, mixture parameters and responsibilities, batch-order arrays, source snapshots and executable invariant checks. Twelve model-state files are supplied separately within this archive for checkpoint-identity and warmup-state checks. The default saved-result analyses do not require checkpoints. Full historical neural training and raw-data score regeneration are not supplied.",
+  "licenses_by_contribution": {
+    "author_software": "MIT",
+    "author_research_content": "CC-BY-4.0",
+    "third_party": "original terms"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "cff-version": "1.2.0",
+  "message": "Please cite this study and its archived research release.",
+  "type": "software",
+  "title": "Seed and schedule sensitivity of mixture coupling in a contrastive autoencoder",
+  "authors": [
+    {
+      "family-names": "Fu",
+      "given-names": "Zeyu"
+    }
+  ],
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.22914495",
+  "repository-code": "https://github.com/PeterPonyu/contrastive-mixture-coupling",
+  "url": "https://doi.org/10.5281/zenodo.22914495",
+  "license": [
+    "MIT",
+    "CC-BY-4.0"
+  ],
+  "abstract": "Paired computational analysis of mixture coupling, seed sensitivity and momentum-projector behavior in a contrastive autoencoder. The archive contains the manuscript, vector figures, six paired endpoints, mixture parameters and responsibilities, batch-order arrays, source snapshots and executable invariant checks. Twelve model-state files are supplied separately within this archive for checkpoint-identity and warmup-state checks. The default saved-result analyses do not require checkpoints. Full historical neural training and raw-data score regeneration are not supplied."
+}

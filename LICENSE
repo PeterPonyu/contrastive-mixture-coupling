@@ -1,0 +1,22 @@
+# License scope
+
+Copyright (c) 2026 Zeyu Fu for the author's contributions.
+
+This is a mixed-license research release, not a blanket relicensing of all
+materials contained in every file.
+
+- Author-owned software and its software documentation: MIT License, in
+  `LICENSE-MIT`.
+- Author-owned manuscript text, manuscript source, figures, synthetic fixtures,
+  generated numerical results and model weights: Creative Commons Attribution
+  4.0 International, in `LICENSE-CC-BY-4.0`.
+- Source-study expression data, source-provided labels and annotations,
+  third-party code, and any other third-party materials retain their original
+  rights and applicable terms. They are not relicensed by the author grants.
+
+The distinction is by contribution, not filename extension: a result archive
+can contain both an author-generated prediction and an original observed label.
+The license on the former does not grant new rights to the latter. Existing
+copyright and license notices remain applicable. See `NOTICE.md` for attribution
+and content boundaries. No new rights to personal information or third-party
+trademarks are granted.

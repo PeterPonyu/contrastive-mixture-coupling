@@ -1,0 +1,89 @@
+{
+  "gate": "PASS",
+  "paired_seed_count": 3,
+  "endpoint_count": 6,
+  "paired_contrasts": [
+    {
+      "seed": 0,
+      "edge_delta": -0.10237164016990474,
+      "branch_delta": -0.06663917251722118,
+      "occupancy_delta": -32.592447824678686
+    },
+    {
+      "seed": 1,
+      "edge_delta": -0.05830586622343659,
+      "branch_delta": -0.685360409633377,
+      "occupancy_delta": -21.8932298374851
+    },
+    {
+      "seed": 2,
+      "edge_delta": -0.036227005099022436,
+      "branch_delta": -0.060124291774680816,
+      "occupancy_delta": -9.568393828067876
+    }
+  ],
+  "sensitivity": {
+    "edge_delta": {
+      "mean": -0.06563483716412126,
+      "sample_sd": 0.033675860025426205,
+      "range": [
+        -0.10237164016990474,
+        -0.036227005099022436
+      ],
+      "leave_one_seed_out_means": [
+        -0.04726643566122951,
+        -0.06929932263446359,
+        -0.08033875319667066
+      ]
+    },
+    "branch_delta": {
+      "mean": -0.270707957975093,
+      "sample_sd": 0.35911433091348716,
+      "range": [
+        -0.685360409633377,
+        -0.060124291774680816
+      ],
+      "leave_one_seed_out_means": [
+        -0.3727423507040289,
+        -0.063381732145951,
+        -0.3759997910752991
+      ]
+    }
+  },
+  "historical_branch_contrasts": [
+    {
+      "epochs": 200,
+      "seed": 0,
+      "branch_delta": -0.07957141821271896
+    },
+    {
+      "epochs": 200,
+      "seed": 1,
+      "branch_delta": -0.05114928187445911
+    },
+    {
+      "epochs": 200,
+      "seed": 2,
+      "branch_delta": -0.7553464848356339
+    },
+    {
+      "epochs": 400,
+      "seed": 0,
+      "branch_delta": -0.11681477205061663
+    },
+    {
+      "epochs": 400,
+      "seed": 1,
+      "branch_delta": -0.10586891098321949
+    },
+    {
+      "epochs": 400,
+      "seed": 2,
+      "branch_delta": -0.06202573967519842
+    }
+  ],
+  "max_responsibility_reconstruction_error": 2.5224964583792087e-07,
+  "new_neural_updates": 0,
+  "new_mixture_fits": 0,
+  "limitation": "Scores independently read and differenced; PCA input/branch targets are not bundled, so endpoint metrics are not recomputed from raw data."
+}

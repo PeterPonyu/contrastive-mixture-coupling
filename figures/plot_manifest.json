@@ -1,0 +1,31 @@
+{
+  "generator": "R: ggplot2/grid/Cairo",
+  "font": "Arial",
+  "figures": {
+    "fourbg_edge_200": {
+      "points_per_panel": [6, 6, 6, 6],
+      "lettering": "one letter per distinct panel",
+      "legend": "one horizontal full-width inter-row gutter"
+    },
+    "fourbg_components_200": {
+      "points_per_panel": [6, 6, 6, 6],
+      "lettering": "one letter per distinct panel",
+      "legend": "one horizontal full-width inter-row gutter"
+    },
+    "setty_palantir_seeds": {
+      "points_per_panel": 12,
+      "lettering": "one letter per distinct panel",
+      "legend": "one horizontal full-width footer"
+    },
+    "matched_coupling": {
+      "points_per_panel": [6, 6, 6],
+      "lettering": "one letter per distinct panel",
+      "legend": "one horizontal full-width footer"
+    },
+    "setty_umap": {
+      "points_per_panel": [450, 450, 450, 450, 450, 450],
+      "lettering": ["Uncoupled: w = 0", "Coupled: w = 1"],
+      "legend": "one horizontal full-width inter-row gutter"
+    }
+  }
+}

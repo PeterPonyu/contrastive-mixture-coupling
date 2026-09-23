@@ -1,0 +1,152 @@
+{
+  "protocol": "Read only torch.load of this manuscript evidence/run-archive; numerical metadata, no source execution or training",
+  "rows": [
+    {
+      "seed": 0,
+      "states": {
+        "initial": {
+          "epochs_completed": null,
+          "queue_ptr": 0,
+          "queue_shape": [
+            128,
+            4096
+          ],
+          "query_bn_batches": 0,
+          "key_bn_batches": 0,
+          "query_key_max_parameter_difference": 1.4310599565505981
+        },
+        "warmup": {
+          "epochs_completed": 180,
+          "queue_ptr": 0,
+          "queue_shape": [
+            128,
+            4096
+          ],
+          "query_bn_batches": 11520,
+          "key_bn_batches": 2880,
+          "query_key_max_parameter_difference": 0.06648731231689453
+        },
+        "w0": {
+          "epochs_completed": 200,
+          "queue_ptr": 0,
+          "queue_shape": [
+            128,
+            4096
+          ],
+          "query_bn_batches": 12800,
+          "key_bn_batches": 3200,
+          "query_key_max_parameter_difference": 0.04964172840118408
+        },
+        "w1": {
+          "epochs_completed": 200,
+          "queue_ptr": 0,
+          "queue_shape": [
+            128,
+            4096
+          ],
+          "query_bn_batches": 12800,
+          "key_bn_batches": 3200,
+          "query_key_max_parameter_difference": 0.15320360660552979
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "states": {
+        "initial": {
+          "epochs_completed": null,
+          "queue_ptr": 0,
+          "queue_shape": [
+            128,
+            4096
+          ],
+          "query_bn_batches": 0,
+          "key_bn_batches": 0,
+          "query_key_max_parameter_difference": 1.3326771259307861
+        },
+        "warmup": {
+          "epochs_completed": 180,
+          "queue_ptr": 0,
+          "queue_shape": [
+            128,
+            4096
+          ],
+          "query_bn_batches": 11520,
+          "key_bn_batches": 2880,
+          "query_key_max_parameter_difference": 0.12142020463943481
+        },
+        "w0": {
+          "epochs_completed": 200,
+          "queue_ptr": 0,
+          "queue_shape": [
+            128,
+            4096
+          ],
+          "query_bn_batches": 12800,
+          "key_bn_batches": 3200,
+          "query_key_max_parameter_difference": 0.12443464994430542
+        },
+        "w1": {
+          "epochs_completed": 200,
+          "queue_ptr": 0,
+          "queue_shape": [
+            128,
+            4096
+          ],
+          "query_bn_batches": 12800,
+          "key_bn_batches": 3200,
+          "query_key_max_parameter_difference": 0.20045654475688934
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "states": {
+        "initial": {
+          "epochs_completed": null,
+          "queue_ptr": 0,
+          "queue_shape": [
+            128,
+            4096
+          ],
+          "query_bn_batches": 0,
+          "key_bn_batches": 0,
+          "query_key_max_parameter_difference": 0.9972187876701355
+        },
+        "warmup": {
+          "epochs_completed": 180,
+          "queue_ptr": 0,
+          "queue_shape": [
+            128,
+            4096
+          ],
+          "query_bn_batches": 11520,
+          "key_bn_batches": 2880,
+          "query_key_max_parameter_difference": 0.06145751476287842
+        },
+        "w0": {
+          "epochs_completed": 200,
+          "queue_ptr": 0,
+          "queue_shape": [
+            128,
+            4096
+          ],
+          "query_bn_batches": 12800,
+          "key_bn_batches": 3200,
+          "query_key_max_parameter_difference": 0.052507102489471436
+        },
+        "w1": {
+          "epochs_completed": 200,
+          "queue_ptr": 0,
+          "queue_shape": [
+            128,
+            4096
+          ],
+          "query_bn_batches": 12800,
+          "key_bn_batches": 3200,
+          "query_key_max_parameter_difference": 0.11927049607038498
+        }
+      }
+    }
+  ]
+}

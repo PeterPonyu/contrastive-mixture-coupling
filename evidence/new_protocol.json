@@ -1,0 +1,27 @@
+{
+  "name": "Matched contrastive mixture coupling",
+  "dataset": "setty",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "arms": [
+    0,
+    1
+  ],
+  "epochs": 200,
+  "absolute_warmup": 180,
+  "batch": 128,
+  "refit_epochs": [
+    180,
+    190
+  ],
+  "optimizer": "AdamW lr0.001 wd0.00001 clip10",
+  "matching": "same initial state, full registered queue/BN state and optimizer/RNG at branch; matched batch schedule and refit indices",
+  "new_unique_epochs": 660,
+  "scientific_updates": 10560,
+  "gate_probe_updates": 6,
+  "mixture_weight": "constant w after warmup; no anneal in this implementation",
+  "budget": "GPU sequential; CPU2 threads"
+}

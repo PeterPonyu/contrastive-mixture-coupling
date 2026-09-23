@@ -1,0 +1,20 @@
+{
+  "renderer": "R",
+  "entrypoint": "scripts/build_figures.R",
+  "files": [
+    "scripts/build_figures.R",
+    "scripts/plot_helpers.R",
+    "scripts/figure_style.R",
+    "scripts/render_schematic.py",
+    "figures/architecture.svg",
+    "evidence/dpmm-contrastive-prior-20260907/sweep_scores.json",
+    "evidence/dpmm-contrastive-prior-400ep-setty-20260908/sweep_scores.json",
+    "evidence/umap/dpmm-contrastive_w0_s0.csv",
+    "evidence/umap/dpmm-contrastive_w0_s1.csv",
+    "evidence/umap/dpmm-contrastive_w0_s2.csv",
+    "evidence/umap/dpmm-contrastive_w1_s0.csv",
+    "evidence/umap/dpmm-contrastive_w1_s1.csv",
+    "evidence/umap/dpmm-contrastive_w1_s2.csv",
+    "evidence/new_results.json"
+  ]
+}

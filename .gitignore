@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pt
+reproduced/
+validation/recomputed/
+build*/
+.*check*/
+*.log
+*.aux
+*.fls
+*.out
+*.blg
+*.bbl
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.DS_Store
