@@ -1,6 +1,6 @@
 {
   "title": "Seed and schedule sensitivity of mixture coupling in a contrastive autoencoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/PeterPonyu/contrastive-mixture-coupling",
   "archive_doi": "10.5281/zenodo.22914495",
   "archive_record": "https://zenodo.org/records/22914495",

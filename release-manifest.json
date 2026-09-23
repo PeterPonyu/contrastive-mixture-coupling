@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "study": "contrastive-mixture-coupling",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scope": "Distributed source/research files and separately downloadable model states. Excludes this manifest and SHA256SUMS to avoid self-reference.",
   "files": {
     ".gitignore": {
@@ -10,7 +10,7 @@
       "distribution": "github-and-zenodo-source-archive"
     },
     ".zenodo.json": {
-      "sha256": "ec4b28a7fef2ca5e0c994b9706d8b0e954ac879006fe0b436edc07dc16631dec",
+      "sha256": "7564d132d20c10609b1ab701ca9cb026aeabd044cee4ed7943b0d7837e3f7ca6",
       "bytes": 1217,
       "distribution": "github-and-zenodo-source-archive"
     },
@@ -20,7 +20,7 @@
       "distribution": "github-and-zenodo-source-archive"
     },
     "CITATION.cff": {
-      "sha256": "14c0e74a03ce706d60e6ee01857a29a4c88aa3f18bcb9e756e1e144b118fb81a",
+      "sha256": "050315bb3c84c6d876e6c84ca9d5826340e7a589f3eab9996f67096c11652b7f",
       "bytes": 1141,
       "distribution": "github-and-zenodo-source-archive"
     },
@@ -45,13 +45,23 @@
       "distribution": "github-and-zenodo-source-archive"
     },
     "README.md": {
-      "sha256": "a8993e93635c074c20c8260b449529a9a13963e9a32bc07fc56d033b3cc1c96b",
-      "bytes": 8793,
+      "sha256": "d801a7e1be23ffcddcb7c0c299f0463f27f9683b9789080c33940af87a03949f",
+      "bytes": 9902,
       "distribution": "github-and-zenodo-source-archive"
     },
     "build.sh": {
       "sha256": "cc96d89f88b890c90edecd0f1e0a991c8bc81ee4c7488fcc5c7aa5efa4aac8ed",
       "bytes": 606,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "checkpoint-downloads.json": {
+      "sha256": "8fa2af72519f1e7329cc57d396bdd8120e6e3f06135bf0b7b046cf5b65d2338d",
+      "bytes": 4056,
+      "distribution": "github-and-zenodo-source-archive"
+    },
+    "checkpoint-files.json": {
+      "sha256": "0c47ac052152e64ebd1ed793f24ae46581c2cb72b16795d0e095b35a9e6f20af",
+      "bytes": 2001,
       "distribution": "github-and-zenodo-source-archive"
     },
     "evidence/checkpoint-metadata.json": {
@@ -365,7 +375,7 @@
       "distribution": "github-and-zenodo-source-archive"
     },
     "release-info.json": {
-      "sha256": "b86984d79b906c3cab898ac3df79d643b16a9ba436d2a0e5a16276a2136b5f69",
+      "sha256": "595558588a754e0e02ef5d03497e34b97eb96ce52535451555f34305f4e6d0ed",
       "bytes": 908,
       "distribution": "github-and-zenodo-source-archive"
     },
@@ -399,6 +409,11 @@
       "bytes": 3214,
       "distribution": "github-and-zenodo-source-archive"
     },
+    "scripts/restore_checkpoints.py": {
+      "sha256": "7274af96f57bd73b0b06fed86acf84ad1a0d5c11a7f4fa5af545c542237d86df",
+      "bytes": 3370,
+      "distribution": "github-and-zenodo-source-archive"
+    },
     "scripts/verify_public_manifest.py": {
       "sha256": "aab2a4bc0d0340a0a28ae0ed0ff0d42971a0e25559c4694cdd86e25fa660c9ba",
       "bytes": 1752,
@@ -430,7 +445,7 @@
       "distribution": "github-and-zenodo-source-archive"
     }
   },
-  "source_files": 73,
+  "source_files": 76,
   "checkpoint_files": 12,
   "historical_hash_policy": "Producer digests inside scientific records identify historical computations. This manifest hashes the actual distributed bytes."
 }

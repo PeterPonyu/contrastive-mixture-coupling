@@ -1,0 +1,81 @@
+{
+  "study": "contrastive-mixture-coupling",
+  "version": "1.0.1",
+  "archive": {
+    "name": "contrastive-mixture-coupling-1.0.1-checkpoints.zip",
+    "bytes": 204977738,
+    "sha256": "374f1a34d3586577a958fd2c297dcfd09b0da78735bafaf550ff752f126ed870"
+  },
+  "parts": [
+    {
+      "name": "contrastive-mixture-coupling-1.0.1-checkpoints.zip.part001",
+      "bytes": 20971520,
+      "sha256": "bb75d857dab756920b6e6b8c5f72740a19e7a2d3db2d20a106cfe83a2fad7e40",
+      "md5": "md5:0df701726eeb2e899784e4dd54bdd680",
+      "url": "https://zenodo.org/records/22914495/files/contrastive-mixture-coupling-1.0.1-checkpoints.zip.part001?download=1"
+    },
+    {
+      "name": "contrastive-mixture-coupling-1.0.1-checkpoints.zip.part002",
+      "bytes": 20971520,
+      "sha256": "0669797df7825b0797ac0ae111c8269521eee9ceab112c3f8671cea7d5bc31e3",
+      "md5": "md5:2778309c068d4c5922d0c1057afd6ac5",
+      "url": "https://zenodo.org/records/22914495/files/contrastive-mixture-coupling-1.0.1-checkpoints.zip.part002?download=1"
+    },
+    {
+      "name": "contrastive-mixture-coupling-1.0.1-checkpoints.zip.part003",
+      "bytes": 20971520,
+      "sha256": "c7a656632de218be0d185ea6d824d9cce79616f8ae27383ffa55c1e4ce23696c",
+      "md5": "md5:e9d224e4deed726b0a282bf0030b86bc",
+      "url": "https://zenodo.org/records/22914495/files/contrastive-mixture-coupling-1.0.1-checkpoints.zip.part003?download=1"
+    },
+    {
+      "name": "contrastive-mixture-coupling-1.0.1-checkpoints.zip.part004",
+      "bytes": 20971520,
+      "sha256": "00a69fdea4118f40897116a00dda905dc66adae51eddce3dbe77ef634ee37793",
+      "md5": "md5:9a458a9c2e9c6efbebe8f81fb725972e",
+      "url": "https://zenodo.org/records/22914495/files/contrastive-mixture-coupling-1.0.1-checkpoints.zip.part004?download=1"
+    },
+    {
+      "name": "contrastive-mixture-coupling-1.0.1-checkpoints.zip.part005",
+      "bytes": 20971520,
+      "sha256": "d7d1e7976a729ed13c0e371a6da8045398faa2baa1222f80dd2b065e6b3505b3",
+      "md5": "md5:2f31ee0340d683fc11d3fc0554289238",
+      "url": "https://zenodo.org/records/22914495/files/contrastive-mixture-coupling-1.0.1-checkpoints.zip.part005?download=1"
+    },
+    {
+      "name": "contrastive-mixture-coupling-1.0.1-checkpoints.zip.part006",
+      "bytes": 20971520,
+      "sha256": "0f28a60a32018d93f6a4e8298f94d383859406485f2c869987cf7b410c0c24a5",
+      "md5": "md5:3125dce5b71536cdc5828c4dd3856b62",
+      "url": "https://zenodo.org/records/22914495/files/contrastive-mixture-coupling-1.0.1-checkpoints.zip.part006?download=1"
+    },
+    {
+      "name": "contrastive-mixture-coupling-1.0.1-checkpoints.zip.part007",
+      "bytes": 20971520,
+      "sha256": "8e0650e45473725dce0fc3bc99b523ceedefd594576b616f10e0b42be8b59743",
+      "md5": "md5:59c1303b455e6e4292bcdc3f4b543171",
+      "url": "https://zenodo.org/records/22914495/files/contrastive-mixture-coupling-1.0.1-checkpoints.zip.part007?download=1"
+    },
+    {
+      "name": "contrastive-mixture-coupling-1.0.1-checkpoints.zip.part008",
+      "bytes": 20971520,
+      "sha256": "d315088fa4511f39d36aa826c37ee59c6077f27f918c3bffbcafbf9db07dac5c",
+      "md5": "md5:638a2cbdc653ad5b8c440a689561b141",
+      "url": "https://zenodo.org/records/22914495/files/contrastive-mixture-coupling-1.0.1-checkpoints.zip.part008?download=1"
+    },
+    {
+      "name": "contrastive-mixture-coupling-1.0.1-checkpoints.zip.part009",
+      "bytes": 20971520,
+      "sha256": "cb0291e8a0a09faeab6bbf6249aad85c5a1eca93a8cceb7d01f4eb370007b3d9",
+      "md5": "md5:6d0b606ba870dac6b53b64f80baba91a",
+      "url": "https://zenodo.org/records/22914495/files/contrastive-mixture-coupling-1.0.1-checkpoints.zip.part009?download=1"
+    },
+    {
+      "name": "contrastive-mixture-coupling-1.0.1-checkpoints.zip.part010",
+      "bytes": 16234058,
+      "sha256": "adbf014333cbeca90392fc53f9e748b2523893f2113ec217c5b6729da357393d",
+      "md5": "md5:cdb11b2b7bb31c2186b25856e21347a4",
+      "url": "https://zenodo.org/records/22914495/files/contrastive-mixture-coupling-1.0.1-checkpoints.zip.part010?download=1"
+    }
+  ]
+}

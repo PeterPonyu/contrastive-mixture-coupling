@@ -1,0 +1,54 @@
+{
+  "study": "contrastive-mixture-coupling",
+  "release_version": "1.0.1",
+  "files": {
+    "evidence/run-archive/seed0/initial.pt": {
+      "sha256": "6aaabd64d177c73796cb62ee5ed430998ec6c5a1771a9af90896331a5ceefb96",
+      "bytes": 8637536
+    },
+    "evidence/run-archive/seed0/w0.pt": {
+      "sha256": "347a8ba1775bd723bd75ddc2de4dcbbb7777275a7ed8f1867bed8c13b90b8bad",
+      "bytes": 21613071
+    },
+    "evidence/run-archive/seed0/w1.pt": {
+      "sha256": "3fd0cf6d83395fa5512c0a8801b30394097efdd2232adc5c35d8ec713a534d28",
+      "bytes": 21613135
+    },
+    "evidence/run-archive/seed0/warmup.pt": {
+      "sha256": "6853ca9b3fdf03263172b865642a0ffdae95725b7591e13db81557d7ee9b14ae",
+      "bytes": 21606239
+    },
+    "evidence/run-archive/seed1/initial.pt": {
+      "sha256": "3e1f4dee3630ed4e38a0f6a1d024b00f29422b2657434d2e7a0f44f6e1637de3",
+      "bytes": 8637600
+    },
+    "evidence/run-archive/seed1/w0.pt": {
+      "sha256": "e17e3920cf65aa7cd03b335c6cb8bddd2b8eb580910fccb577765d66733bcb39",
+      "bytes": 21613135
+    },
+    "evidence/run-archive/seed1/w1.pt": {
+      "sha256": "8eab3d3b2eeea89a98234a1514d74c48505251d7845a8c25cdcb7c3124192e6e",
+      "bytes": 21613263
+    },
+    "evidence/run-archive/seed1/warmup.pt": {
+      "sha256": "daf11a445b88fc508efab7d73840332ef7c6317ee6f5b3878bd1ccd1b6ccc11a",
+      "bytes": 21606303
+    },
+    "evidence/run-archive/seed2/initial.pt": {
+      "sha256": "dc3177ea41c6d080c50ead074a3cd265d4241b8bbd1e6a70fec03c9cec99070c",
+      "bytes": 8637536
+    },
+    "evidence/run-archive/seed2/w0.pt": {
+      "sha256": "650048f7b967f426268d6816d3671d534eb88e3f79865e428955bc18b1868877",
+      "bytes": 21613135
+    },
+    "evidence/run-archive/seed2/w1.pt": {
+      "sha256": "a4feda1850fc7b415bcf10b1eb2d4b64e79f476ffa88861e47c8ef0022f8eb2b",
+      "bytes": 21613199
+    },
+    "evidence/run-archive/seed2/warmup.pt": {
+      "sha256": "6fd5636fc506cf9b985d847a1c8140bdc7437d087d7644d31ba4d9a282af351b",
+      "bytes": 21606239
+    }
+  }
+}

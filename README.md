@@ -2,7 +2,7 @@
 
 ## Repository, archive and citation
 
-Study repository: [PeterPonyu/contrastive-mixture-coupling](https://github.com/PeterPonyu/contrastive-mixture-coupling). Versioned archive: [10.5281/zenodo.22914495](https://doi.org/10.5281/zenodo.22914495). Use `CITATION.cff` for release 1.0.0; `release-manifest.json` records distributed-file checksums. The archive and source repository describe this study only.
+Study repository: [PeterPonyu/contrastive-mixture-coupling](https://github.com/PeterPonyu/contrastive-mixture-coupling). Versioned archive: [10.5281/zenodo.22914495](https://doi.org/10.5281/zenodo.22914495). Use `CITATION.cff` for release 1.0.1; `release-manifest.json` records distributed-file checksums. The archive and source repository describe this study only.
 
 Author-owned software is MIT licensed. The author's manuscript, figures, generated results and model weights are CC BY 4.0. Source-study data, labels, annotations and other third-party materials retain their original terms; they are not relicensed. Read `LICENSE` and `NOTICE.md` before reusing mixed-content files.
 
@@ -73,3 +73,16 @@ This is a coupling comparison within one frozen contrastive implementation. Both
 Three model seeds and paired computational continuations are not independent biological samples. The historical four-dataset and 200/400-epoch summaries are schedule-specific; the newly matched pairing is Setty-only. Effective occupancy is not a validated biological cell-type count, and stored UMAP labels are not a new annotation analysis.
 
 Raw expression/preprocessing inputs, PCA reference inputs, branch targets and a complete neural-training pipeline are absent. The saved-result audit independently differences the published scores but cannot recompute edge or branch metrics from raw data. Neither the small-input checks nor the optional checkpoints reproduce neural training, an expanded seed study, corrected-model training or biological replication.
+
+## Optional checkpoint download and reconstruction
+
+Release 1.0.1 changes only checkpoint distribution and documentation; scientific results, model-state bytes and the manuscript are unchanged from 1.0.0. To make large downloads recoverable, the study-specific Zenodo record stores the checkpoint ZIP as ordered 20 MiB volumes. `checkpoint-downloads.json` lists each volume URL, byte count and SHA-256, plus the reconstructed ZIP identity. These volumes belong only to this study and must not be mixed with other releases.
+
+From the repository root, use the Python standard-library helper:
+
+```bash
+python3 scripts/restore_checkpoints.py --download-dir ../checkpoint-downloads --download
+unzip -n reproduced/checkpoints.zip -d .
+```
+
+If the volumes were downloaded separately, omit `--download`. The helper validates every volume and the reconstructed ZIP and refuses to overwrite different existing files. It does not deserialize models or execute training. After extraction, the original package-relative `.pt` paths and hashes are unchanged. Default CPU saved-result analyses do not need these downloads.

@@ -9,7 +9,7 @@
       "given-names": "Zeyu"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "doi": "10.5281/zenodo.22914495",
   "repository-code": "https://github.com/PeterPonyu/contrastive-mixture-coupling",
   "url": "https://doi.org/10.5281/zenodo.22914495",

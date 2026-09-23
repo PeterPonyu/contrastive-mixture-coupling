@@ -6,7 +6,7 @@
       "name": "Fu, Zeyu"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Paired computational analysis of mixture coupling, seed sensitivity and momentum-projector behavior in a contrastive autoencoder. The archive contains the manuscript, vector figures, six paired endpoints, mixture parameters and responsibilities, batch-order arrays, source snapshots and executable invariant checks. Twelve model-state files are supplied separately within this archive for checkpoint-identity and warmup-state checks. The default saved-result analyses do not require checkpoints. Full historical neural training and raw-data score regeneration are not supplied.",
   "license": "other-open",
   "notes": "Mixed-license release: author-owned software MIT; author-owned manuscript, figures, generated results and weights CC BY 4.0; third-party original terms retained. See LICENSE and NOTICE.md.",
